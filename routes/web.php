@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('course/coba', 'CourseController@coba');
+Route::get('course/coba', 'CourseController@index');
